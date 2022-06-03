@@ -1,0 +1,21 @@
+string nomb, direc, cuentaG;
+int edad, numCel;
+Console.Write("De su nombre:... ");
+nomb = Console.ReadLine();
+Console.Write("De su direccion:... ");
+direc = Console.ReadLine();
+Console.Write("Escriba su cuenta de Google:... ");
+cuentaG = Console.ReadLine();
+Console.Write("Escriba su numero de celular:... ");
+numCel = int.Parse(Console.ReadLine());
+Console.Write("Escriba su edad:... ");
+edad = int.Parse(Console.ReadLine());
+if (edad >= 15)
+    Console.WriteLine("Si podra utilizar esta aplicacion");
+if (edad >= 15)
+    Console.WriteLine("Su registro se a guardado exitosamente");
+else
+    Console.WriteLine("No podra utilizar esta aplicacion");
+
+
+Console.ReadKey()
