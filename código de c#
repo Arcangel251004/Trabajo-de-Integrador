@@ -1,4 +1,4 @@
-string nomb, direc, cuentaG;
+string nomb, direc, cuentG;   // Regid del usuario
 int edad, numCel;
 Console.Write("De su nombre:... ");
 nomb = Console.ReadLine();
