@@ -21,3 +21,42 @@ else
 Console.ReadKey()
 
 FALTAN DOS MAS
+
+ {
+        
+            
+
+            Console.WriteLine("1. Bomberos ");
+            Console.WriteLine("2. Policía ");
+            Console.WriteLine("3. Instituto de Medicina Legal ");
+            Console.WriteLine("4. Cruz Roja ");
+            Console.WriteLine("5. INSS ");
+            Console.WriteLine("6. Salir ");
+            Console.WriteLine("Elige una de las opciones");
+            int opcion = Convert.ToInt32(Console.ReadLine());
+
+            switch (opcion)
+            {
+                case 1:
+                    Console.WriteLine("115");
+                    break;
+                case 2:
+                    Console.WriteLine("116");
+                    break;
+                case 3:
+                    Console.WriteLine("117");
+                    break;
+                case 4:
+                    Console.WriteLine("118");
+                    break;
+                case 5:
+                    Console.WriteLine("119");
+                    break;
+                case 6:
+                    Console.WriteLine();
+                    break;
+            }
+            Console.ReadKey();
+
+
+        }
