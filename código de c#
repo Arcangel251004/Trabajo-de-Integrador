@@ -60,3 +60,45 @@ FALTAN DOS MAS
 
 
         }
+        
+        código de guardado
+        string numPoli, numAmbu, numBombe;
+            string direccion, sitioweb;
+
+            Console.Write("el numero de la Policia Nacional es: 125 ");
+            numPoli = (Console.ReadLine());
+            Console.Write("del palo de mango dos cuadra arriba.");
+            direccion = (Console.ReadLine());
+            Console.Write("policianacional.com");
+            sitioweb = (Console.ReadLine());
+
+            Console.Write("el numero de la Cruz Roja es: 112 ");
+            numAmbu = (Console.ReadLine());
+            Console.Write("donde don lolo,2 arriba,1 abajo.");
+            direccion = (Console.ReadLine());
+            Console.Write("cruzrojaoficialnic.com");
+            sitioweb = (Console.ReadLine());
+
+            Console.Write("el numero de los Bomberos es: 118 ");
+            numBombe = (Console.ReadLine());
+            Console.Write("donde san pedro,100 mts al lago.");
+            direccion = (Console.ReadLine());
+            Console.Write("bomberosmannic.com");
+            sitioweb = (Console.ReadLine());
+
+            Console.Write("el numero de MedicinaLegal es: 2268 6141");
+            numBombe = (Console.ReadLine());
+            Console.Write("donde san pedro,100 mts al lago.");
+            direccion = (Console.ReadLine());
+            Console.Write("MedicinalegalNIC.com");
+            sitioweb = (Console.ReadLine());
+
+            Console.Write("el numero del INSS es: 2264 7040 ");
+            numBombe = (Console.ReadLine());
+            Console.Write("donde el zumen,100 mts al lago.");
+            direccion = (Console.ReadLine());
+            Console.Write("www.inss.gob.ni/");
+            sitioweb = (Console.ReadLine());
+
+            Console.WriteLine("Datos Almacenados");
+            Console.ReadKey();
